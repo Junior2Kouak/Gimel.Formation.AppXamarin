@@ -1,0 +1,11 @@
+# Ignore les répertoires de Visual Studio
+.vs/
+.vscode/
+bin/
+obj/
+
+# Ignore les fichiers de configuration utilisateur de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
