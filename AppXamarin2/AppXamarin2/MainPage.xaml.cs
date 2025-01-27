@@ -14,5 +14,24 @@ namespace AppXamarin2
         {
             InitializeComponent();
         }
+
+        private void OnClicked(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            button.Text = "Clicked";
+     
+        }
+
+        private void OnPressed(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            button.BackgroundColor = Color.Blue;
+        }
+
+        private void OnReleased(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            button.BackgroundColor = Color.Orange;
+        }
     }
 }
